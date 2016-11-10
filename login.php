@@ -22,8 +22,8 @@
   <div class="thumbnail"><img src="coracao.png"/></div>
  
   <form class="login-form" method="POST">
-    <input type="text" placeholder="username"/>
-    <input type="password" placeholder="password"/>
+    <input type="text" placeholder="Usuário"/>
+    <input type="password" placeholder="Senha"/>
     
     <input type="submit" value="Entrar" id="cadastrar" name="cadastrar">
     
