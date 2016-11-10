@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cadastro paciente</title>
+</head>
+
+<body>
+<form method="post">
+<fieldset>
+<legend>Cadastro</legend>
+
+<table cellspacing="10">
+<tr>
+ <td>
+	<label for="nome">Nome: </label>
+</td>
+<td align="left">
+    <input type="text" name="nome" size="20" maxlength="50">
+</td>
+<td>
+    <label for="sobrenome">Sobrenome: </label>
+</td>
+<td align="left">
+    <input type="text" name="sobrenome" size="20" maxlength="50">
+</td>
+</tr>
+<tr>
+<td>
+    <label>Nascimento: </label>
+</td>
+<td align="left">
+    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+   <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+   <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+</td>
+</tr>
+<tr>
+<td>
+    <label>CPF:</label>
+</td>
+<td align="left">
+    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+</td>
+</tr>
+<tr>
+<td>
+  	<label>Telefone:</label>
+</td>
+<td align="left">
+    <input type="text" name="ddd" value="ddd" size="2" maxlength="2"><input type="text" name="tel" size="9" maxlength="9">
+</td>
+</tr>  
+<tr>
+<td>
+  	<label>Email:</label>
+</td>
+<td align="left">
+    <input type="text" name="email"><select name="dominio">
+    <option value="#">Dominio</option>
+    <option value="gmail">@gmail.com</option>
+    <option value="hotmail">@hotmail.com</option>
+    <option value="yahoo">@yahoo.com.br</option>
+    </select>
+</td>
+</tr> 
+<tr>
+<td>
+  	<label>Tipo Sanguineo:</label>
+</td>   
+<td>
+	<input type="text" size="2" maxlength="2">
+</td>
+</tr> 
+<tr>
+<td>
+  	<label>Plano de saude:</label>
+</td>   
+<td>
+	<input type="text" size="20" maxlength="20">
+</td>
+</tr> 
+<tr>
+<td>
+  	<label>Alergias:</label>
+</td>   
+<td>
+	<textarea  name="alergias" rows="2" cols="35"></textarea>
+</td>
+</tr> 
+<tr>
+<td>
+  	<label>Prontuario:</label>
+</td>   
+<td>
+	<textarea  name="prontuario" rows="5" cols="35"></textarea>
+    
+</td>
+</tr> 
+
+  
+  
+  </table>
+
+</fieldset>
+</form>
+
+</body>
+</html>
